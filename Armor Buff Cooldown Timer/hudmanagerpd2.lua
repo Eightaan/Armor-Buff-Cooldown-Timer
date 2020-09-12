@@ -6,8 +6,8 @@ Hooks:PreHook(HUDManager,"_create_teammates_panel","buff_hudmanager_create_teamm
 	hud = hud or managers.hud:script(PlayerBase.PLAYER_INFO_HUD_PD2)
 	self._buffs_master = hud.panel:panel({
 		name = "buffs_master",
-		x = 1105,
-		y = 679,
+		x = 1023,
+		y = 630,
 		w = hud.panel:w(),
 		h = hud.panel:h()
 	})
